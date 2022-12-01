@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+
+ }
+#nav-bar{
+    position:sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5pm 5rem;
+    box-shadow: 5px 5px 20px rgb(85, 59, 59);
+    background-color: black;
+
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: blueviolet !important;
+}
+#navbarSupportedContent a{
+    color: rgb(16, 252, 252) !important;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 3px solid blueviolet ;
+}
+#navbarSupportedContent button{
+    background-color: blue;
+    border-radius: 15px;
+}
+ section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+} 
+#home{
+
+background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)), url(img/img.jpg);
+background-size: cover;
+background-position: center;
+}
+#home h1{
+    font-size: 100px;
+    color: rgb(52, 233, 7);
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow:0px 3px 0px black;
+}
+#home p{
+    color: blue;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow:0px 2px 0px black;
+}
+#home input{
+    width: 40%;
+    align-content: center;
+}
+.signin{
+    background-color: blue !important; 
+    color: white !important;
+
+}
+#about{
+    background-color: rgb(63, 179, 140);
+
+  border-top: 250px;
+}
+#about h1{
+    font-weight: 800;
+    color: brown;
+    
+}
+#about h4{
+    text-align: left;
+
+}
+#product {
+    background-color: rgb(63, 138, 113);
+}
+#product img{
+    width: 200px;
+    height: 200px;
+    
+
+}
+#product .card{
+    width: 250px;
+    height: 300px;
+    color: rgb(255, 149, 0);
+    border-width: 0cm;
+    align-items:center;
+    box-shadow: 15px 20px 20px black;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    margin: 20px 60px;
+
+}
